@@ -1,8 +1,12 @@
 package tests
  
 import org.scalatest.FunSuite
-import test.Widget
- 
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
+
+
+
+@RunWith(classOf[JUnitRunner])
 class WidgetTest extends FunSuite {
  
   test("colour") {
