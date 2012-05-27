@@ -4,7 +4,7 @@ import Solutions._
 
 trait ListsSolutions {
 
-  def last[T](list: List[T]): T = ???
+  def last[T](list: List[T]): T = list.last
   def penultimate[T](list: List[T]): T = ???
   def nth[T](n: Int, list: List[T]): T = ???
   def length[T](list: List[T]): Int = ???

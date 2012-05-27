@@ -1,9 +1,13 @@
 package s99
 import org.specs2.mutable._
 import org.junit.runner.RunWith
+import org.junit.Test
 
 class ListsSpec2 extends SpecificationWithJUnit with ListsSolutions {
 
+  @Test
+  def testWorkaround():Unit = {}
+  
   "Find the last element of a list" >>
   { last(List(1, 1, 2, 3, 5, 8)) === 8 }
 
