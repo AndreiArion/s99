@@ -6,6 +6,7 @@ import org.scalatest.junit.JUnitRunner
 
 
 
+
 @RunWith(classOf[JUnitRunner])
 class WidgetTest extends FunSuite {
  
